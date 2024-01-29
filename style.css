@@ -1,0 +1,109 @@
+body {
+    background-image: linear-gradient(to right, #353649, #f79fd9);
+}
+
+img {margin-top: 20px;}
+
+h2 {font-size: 2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.header {
+    color: white;
+    font-size: larger;
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 120px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header>div {
+    margin-top: -60px;
+    text-align: center;
+}
+
+.body {
+    margin-top: -100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.body>div {
+    color: white;
+    border: 2px solid none;
+    box-shadow: grey;
+    height: 400px;
+    width: 290px;
+    margin: 5px auto;
+    text-align: center;
+}
+h3 {
+    display: block;
+    font-size: 1.25em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+h1 {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+h4 {
+    display: block;
+    font-size: 1.25em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bolder;
+    margin-top: -29px;
+}
+h5 {
+     display: block;
+    font-size: 1.25em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bolder;
+}
+hr {
+    width: 200px;
+    border-style: groove;
+    margin-top: 60px;
+}
+button {
+    margin-top: 30px;
+    border-radius: 35px;
+    border-color: white;
+    height: 70px;
+    width: 200px;
+    font-weight: bold;
+    color: grey;
+    background-color: white;
+    cursor: pointer;
+}
+.first {
+    background-image: linear-gradient(#f9e79b, #f79fd9);
+}
+.second {
+    background-image: linear-gradient(#afd9fa, #f79fd9);
+}
+.footer {    color: #ffffff;
+    background-color: #333333;
+    position: relative;
+    text-align: center;
+    padding: 2px;
+    margin-top: 50px;
+    margin-inline: -8px;
+}
+.link { color: lightblue;}
+
